@@ -1,4 +1,4 @@
-# Modelo Analítico 5G — San José del Guaviare
+# Modelo Analítico 5G - San José del Guaviare
 
 **Tesis de Maestría en Gerencia Estratégica de las TIC**  
 Universidad Militar Nueva Granada — UMNG  
@@ -119,13 +119,13 @@ Genera el archivo `figura13_escenarios_5g.png` en la carpeta actual.
 
 ## Tableros de control
 
-**Tablero 1 — Diagnóstico de cobertura**
+**Tablero 1 - Diagnóstico de cobertura**
 Muestra la cobertura estimada por zona comparando el modelo propuesto con el tradicional, con tarjetas de indicadores y gráficos comparativos por protocolo.
 
-**Tablero 2 — Eficiencia operativa**
+**Tablero 2 - Eficiencia operativa**
 Presenta el KPI-E1 de eficiencia de despliegue y el KPI-E2 de costo por usuario, con el OPEX mensual consolidado por zona.
 
-**Tablero 3 — Desempeño técnico**
+**Tablero 3 - Desempeño técnico**
 Muestra la latencia (KPI-T1), disponibilidad (KPI-T2) y pérdida de señal (KPI-T3) por zona, con el comparativo integral en gráfico de radar.
 
 ---
@@ -134,7 +134,7 @@ Muestra la latencia (KPI-T1), disponibilidad (KPI-T2) y pérdida de señal (KPI-
 
 ```
 Díaz Mendoza, F. (2026). Modelo analítico Python-Dash para optimización del
-despliegue de redes 5G en zonas rurales — San José del Guaviare, Colombia
+despliegue de redes 5G en zonas rurales - San José del Guaviare, Colombia
 [Software]. GitHub. https://github.com/tu-usuario/modelo-5g-guaviare
 ```
 
