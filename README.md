@@ -37,7 +37,7 @@ El modelo analítico opera sobre 7 tablas en esquema estrella:
 |---|---|
 | `Despliegue_Zonas` | Tabla de hechos central con KPIs por zona |
 | `Dim_Zonas` | 8 zonas territoriales con variables geográficas y demográficas |
-| `Dim_Geografía` | Índice NDVI, tipo de topografía y pérdida de señal |
+| `Dim_Geografía` | Índice INVIAS, tipo de topografía y pérdida de señal |
 | `Dim_Socioeconómica` | Densidad, servicios esenciales e índice de vulnerabilidad |
 | `Dim_Protocolos` | 4 protocolos (P1-P4) con métricas técnicas y operativas |
 | `Dim_Escenarios` | 5 escenarios comparativos (E001 tradicional + E002-E005 propuestos) |
@@ -49,14 +49,14 @@ El modelo analítico opera sobre 7 tablas en esquema estrella:
 
 | ID | Zona | Protocolo | Criticidad |
 |---|---|---|---|
-| Z001 | Veredas Amazónicas Norte | P1 — Nodo solar autónomo | Crítica |
-| Z002 | Corregimiento La Fuga | P1 — Nodo solar autónomo | Crítica |
-| Z003 | Centro de Salud Calamar | P2 — Backhaul satelital LEO | Crítica |
-| Z004 | Escuela Rural El Progreso | P2 — Backhaul satelital LEO | Crítica |
-| Z005 | El Retorno periferia | P3 — Open RAN distribuido | Media |
-| Z006 | Miraflores rural | P3 — Open RAN distribuido | Media |
-| Z007 | Casco urbano San José | P4 — Híbrida fibra + RF | Favorable |
-| Z008 | El Capricho | P4 — Híbrida fibra + RF | Favorable |
+| Z001 | Veredas Amazónicas Norte | P1 - Nodo solar autónomo | Crítica |
+| Z002 | Corregimiento La Fuga | P1 - Nodo solar autónomo | Crítica |
+| Z003 | Centro de Salud Calamar | P2 - Backhaul satelital LEO | Crítica |
+| Z004 | Escuela Rural El Progreso | P2 - Backhaul satelital LEO | Crítica |
+| Z005 | El Retorno periferia | P3 - Open RAN distribuido | Media |
+| Z006 | Miraflores rural | P3 - Open RAN distribuido | Media |
+| Z007 | Casco urbano San José | P4 - Híbrida fibra + RF | Favorable |
+| Z008 | El Capricho | P4 - Híbrida fibra + RF | Favorable |
 
 ---
 
