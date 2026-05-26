@@ -1,7 +1,7 @@
 """
 ================================================================================
 TABLEROS 5G GUAVIARE — Aplicación Python con Dash
-Autor: Fausto Díaz Mendoza — Maestría UMNG 2026
+Autor: Fausto Díaz Mendoza - Maestría UMNG 2026
 INSTALACIÓN: pip install dash plotly pandas
 EJECUCIÓN:   python tableros_5g_guaviare.py
 NAVEGADOR:   http://127.0.0.1:8050
@@ -559,9 +559,5 @@ def render(tab):
     if tab == "t2": return t2
     return t3
 
-if __name__ == "__main__":
-    print("\n" + "="*55)
-    print("  TABLEROS 5G GUAVIARE — iniciando...")
-    print("  Abrir navegador en: http://127.0.0.1:8050")
-    print("="*55 + "\n")
-    app.run(debug=False, port=8050)
+if __name__ == '__main__':
+    app.run(host='0.0.0.0', port=8050, debug=False)
