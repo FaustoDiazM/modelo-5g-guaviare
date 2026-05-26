@@ -1,7 +1,7 @@
 # Modelo Analítico 5G - San José del Guaviare
 
 **Tesis de Maestría en Gerencia Estratégica de las TIC**  
-Universidad Militar Nueva Granada — UMNG  
+Universidad Militar Nueva Granada - UMNG  
 Autor: Fausto Díaz Mendoza · Código: 2220004  
 Director: Jairo Alberto Cuellar Guarnizo  
 Cajicá, Colombia · 2026
