@@ -4,7 +4,7 @@
 Universidad Militar Nueva Granada - UMNG  
 Autor: Fausto Díaz Mendoza · Código: 2220004  
 Director: Jairo Alberto Cuellar Guarnizo  
-Cajicá, Colombia · 2026
+Colombia · 2026
 
 ---
 
@@ -131,16 +131,6 @@ Presenta el KPI-E1 de eficiencia de despliegue y el KPI-E2 de costo por usuario,
 
 **Tablero 3 - Desempeño técnico**
 Muestra la latencia (KPI-T1), disponibilidad (KPI-T2) y pérdida de señal (KPI-T3) por zona, con el comparativo integral en gráfico de radar.
-
----
-
-## Cita APA 7
-
-```
-Díaz Mendoza, F. (2026). Modelo analítico Python-Dash para optimización del
-despliegue de redes 5G en zonas rurales - San José del Guaviare, Colombia
-[Software]. GitHub. https://github.com/tu-usuario/modelo-5g-guaviare
-```
 
 ---
 
