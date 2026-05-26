@@ -44,6 +44,11 @@ El modelo analítico opera sobre 7 tablas en esquema estrella:
 | `Tabla_KPIs` | 7 KPIs con umbrales de alerta y resultados por zona |
 
 ---
+> **Nota sobre los datos:** Los valores del modelo están embebidos 
+> directamente en el archivo `tableros_5g_guaviare.py` y documentados 
+> en el Diccionario de datos (Anexo 3) de la tesis. Las fuentes 
+> institucionales de cada variable son: CRC (2026), DANE (2018-2020), 
+> IDEAM (2023), IGAC (2023), INVIAS (2023) e IPSE (2024).
 
 ## Zonas analizadas
 
