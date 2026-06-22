@@ -1,7 +1,7 @@
 """
 ================================================================================
 TABLEROS 5G GUAVIARE — Aplicación Python con Dash
-Autor: Fausto Díaz Mendoza - Maestría UMNG 2026
+Autor: Fausto Díaz Mendoza — Maestría UMNG 2026
 INSTALACIÓN: pip install dash plotly pandas
 EJECUCIÓN:   python tableros_5g_guaviare.py
 NAVEGADOR:   http://127.0.0.1:8050
@@ -121,14 +121,14 @@ def fig_cobertura():
     col_prop = [TEAL if v >= 90 else AMBER for v in COB_VALS]
     fig = go.Figure()
     fig.add_trace(go.Bar(
-        name="Propuesto", y=NOMBRES, x=COB_VALS, orientation="h",
+        name="Propuesto", y=IDS, x=COB_VALS, orientation="h",
         marker_color=col_prop,
         text=[f"{v:.1f}%" for v in COB_VALS],
         textposition="auto",
         textfont=dict(color=WHITE, size=9),
     ))
     fig.add_trace(go.Bar(
-        name="Tradicional", y=NOMBRES, x=trad, orientation="h",
+        name="Tradicional", y=IDS, x=trad, orientation="h",
         marker_color=RED, opacity=0.7,
         text=[f"{v}%" for v in trad],
         textposition="auto",
@@ -559,5 +559,9 @@ def render(tab):
     if tab == "t2": return t2
     return t3
 
-if __name__ == '__main__':
-    app.run(host='0.0.0.0', port=8050, debug=False)
+if __name__ == "__main__":
+    print("\n" + "="*55)
+    print("  TABLEROS 5G GUAVIARE — iniciando...")
+    print("  Abrir navegador en: http://127.0.0.1:8050")
+    print("="*55 + "\n")
+    app.run(debug=False, port=8050)
