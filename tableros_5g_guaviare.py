@@ -173,14 +173,14 @@ def fig_opex_zona():
     costo_usr = [z["opex"]/z["pob"] for z in ZONAS]
     fig = go.Figure()
     fig.add_trace(go.Bar(
-        name="OPEX mensual ($M COP)", x=NOMBRES, y=OPEX_VALS,
+        name="OPEX mensual ($M COP)", x=IDS, y=OPEX_VALS,
         marker_color=NAVY,
         text=[f"${v:.1f}M" for v in OPEX_VALS],
         textposition="auto",
         textfont=dict(color=WHITE, size=9),
     ))
     fig.add_trace(go.Scatter(
-        name="COP/usuario", x=NOMBRES, y=costo_usr,
+        name="COP/usuario", x=IDS, y=costo_usr,
         mode="lines+markers",
         line=dict(color=TEAL_LT, width=2),
         marker=dict(size=6, color=TEAL_LT),
@@ -445,7 +445,7 @@ t2 = html.Div([
         html.Div([
             section_title("Detalle de eficiencia por zona"),
             dash_table.DataTable(
-                data=[{"Zona":ZONAS[i]["nombre"],
+                data=[{"Zona":ZONAS[i]["id"],
                        "Prot.":ZONAS[i]["prot"],
                        "Pob.":f"{ZONAS[i]['pob']:,}",
                        "OPEX/mes":f"${ZONAS[i]['opex']:,}",
