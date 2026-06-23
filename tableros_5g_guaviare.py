@@ -330,7 +330,7 @@ def fig_cob_protocolo():
         annotation_position="top right",
     )
 
-    # Línea cobertura tradicional
+    # Línea cobertura - tradicional
     fig.add_vline(
         x=cob_trad_prom, line_dash="dot", line_color=RED, line_width=1.5,
         annotation_text=f"Trad. {cob_trad_prom:.0f}%",
